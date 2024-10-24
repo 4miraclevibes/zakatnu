@@ -13,7 +13,7 @@
                 </li>
                 @if (Route::is('landing'))
                 <li class="nav-item">
-                    <a class="nav-link" href="#donations">Program</a>
+                    <a class="nav-link" href="#donations">Donasi</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#transactions">Transaksi</a>
