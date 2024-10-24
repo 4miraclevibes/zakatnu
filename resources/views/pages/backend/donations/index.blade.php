@@ -68,7 +68,7 @@
           </div>
           <div class="mb-3">
             <label for="description" class="form-label">Deskripsi</label>
-            <textarea class="form-control" id="editor" name="description" rows="3"></textarea>
+            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
           </div>
           <div class="mb-3">
             <label for="target_amount" class="form-label">Target Jumlah</label>
@@ -103,7 +103,7 @@
           </div>
           <div class="mb-3">
             <label for="description" class="form-label">Deskripsi</label>
-            <textarea class="form-control" id="editor1" name="description" rows="3">{{ $donation->description }}</textarea>
+            <textarea class="form-control" id="description" name="description" rows="3">{{ $donation->description }}</textarea>
           </div>
           <div class="mb-3">
             <label for="target_amount" class="form-label">Target Jumlah</label>
