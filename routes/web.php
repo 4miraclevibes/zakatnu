@@ -17,7 +17,7 @@ Route::post('/transactions/{donationId}', [TransactionController::class, 'store'
 Route::group([
     'middleware' => ['auth', function ($request, $next) {
         if (Auth::user()->role->name !== 'admin') { // Asumsikan role_id 1 adalah admin
-            return redirect()->route('home')->with('error', 'Anda tidak memiliki akses ke halaman ini.');
+            return redirect()->route('landing')->with('error', 'Anda tidak memiliki akses ke halaman ini.');
         }
         return $next($request);
     }]
